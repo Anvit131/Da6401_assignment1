@@ -35,5 +35,8 @@ Ensure Python is installed and install the required dependencies:
 pip install numpy matplotlib seaborn scikit-learn wandb keras
 
 
+Train the Model
+To train the neural network on Fashion-MNIST, run:
+python DL_1.ipynb
 
 
