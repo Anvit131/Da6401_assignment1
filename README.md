@@ -45,16 +45,23 @@ wandb
 ```
 3. Set up Wandb:
 Sign up for a free account at wandb.ai.
-Log in from the command line:
 ```bash
 wandb login
 ```
-## ** Train the Model **
-To train the neural network on Fashion-MNIST,
-run:
-```bash
-python DL_1.ipynb
-```
+## ** Notebook `DL_Assignment_1.ipynb` Specification **
+ - Downloading the Fashion-MNIST
+ - Normalize the data
+ - Ploting image class
+ - Feedforward Neural network to generate the probability distribution
+ - Optimization Functions
+ - Implimentation of Backpropagation
+ - Plotting the accuracy using wandb
+ - Plotting the confusion matrix in wandb For the best model
+ - ploting the accuracy for the MSE loss function
+ - Downloading the MNIST-data
+ - Normalizing the data
+ - Testing accuracy for the data with three best model
+
 ## Evaluate the Model
 - After training, the model evaluates on the test dataset by:
    - Computing test accuracy
