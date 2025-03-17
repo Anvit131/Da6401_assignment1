@@ -2,7 +2,7 @@
 
 This project implements a **fully connected neural network (MLP)** from scratch using **NumPy** to classify images from the **Fashion-MNIST** dataset. The model supports different activation functions, weight initialization techniques, and optimizers. **Weights & Biases (wandb)** is used for **experiment tracking** and **hyperparameter tuning**.  
 
-## **📌 Features**  
+## ** Features**  
 
 - **Dataset**: Fashion-MNIST (10-class grayscale 28x28 images)  
 - **Preprocessing**: Normalization, reshaping  
