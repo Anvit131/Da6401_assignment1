@@ -64,3 +64,32 @@ python DL_1.ipynb
   - Check Accuracy & Loss: Logged to wandb
   - View Confusion Matrix: Plotted using Seaborn
   - Compare Hyperparameter Runs: On the wandb dashboard
+ 
+## Supported Command-Line Arguments  
+
+The `train.py` script supports the following command-line arguments:  
+
+| Argument | Default Value | Description |
+|----------|--------------|-------------|
+| `-wp`, `--wandb_project` | `myprojectname` | Project name for Wandb dashboard |
+| `-we`, `--wandb_entity` | `myname` | Wandb entity (username or team) |
+| `-d`, `--dataset` | `fashion_mnist` | Dataset to use: `mnist` or `fashion_mnist` |
+| `-e`, `--epochs` | `10` | Number of epochs to train |
+| `-b`, `--batch_size` | `16` | Batch size for training |
+| `-l`, `--loss` | `cross_entropy` | Loss function: `mean_squared_error` or `cross_entropy` |
+| `-o`, `--optimizer` | `adam` | Optimizer: `sgd`, `momentum`, `nag`, `rmsprop`, `adam`, `nadam` |
+| `-lr`, `--learning_rate` | `0.0001` | Learning rate for the optimizer |
+| `-m`, `--momentum` | `0.9` | Momentum for `momentum` and `NAG` optimizers |
+| `-beta`, `--beta` | `0.9` | Beta for `RMSProp` optimizer |
+| `-beta1`, `--beta1` | `0.9` | Beta1 for `Adam` and `Nadam` optimizers |
+| `-beta2`, `--beta2` | `0.999` | Beta2 for `Adam` and `Nadam` optimizers |
+| `-eps`, `--epsilon` | `1e-6` | Epsilon for numerical stability in optimizers |
+| `-w_d`, `--weight_decay` | `0.0` | Weight decay (L2 regularization) coefficient |
+| `-w_i`, `--weight_init` | `xavier` | Weight initialization: `random` or `xavier` |
+| `-nhl`, `--num_layers` | `4` | Number of hidden layers |
+| `-sz`, `--hidden_size` | `128` | Number of neurons per hidden layer |
+| `-a`, `--activation` | `relu` | Activation function: `identity`, `sigmoid`, `tanh`, `relu` |
+
+### **Example Usage**
+```bash
+python train.py --wandb_project myprojectname --wandb_entity myname --epochs 10 --batch_size 16 --learning_rate 0.0001 --optimizer adam --activation relu
