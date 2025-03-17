@@ -65,9 +65,7 @@ python DL_1.ipynb
   - View Confusion Matrix: Plotted using Seaborn
   - Compare Hyperparameter Runs: On the wandb dashboard
  
-## Supported Argument
-
-The `train.py` script supports the following command-line arguments:  
+## Supported Argument 
 
 | Argument | Default Value | Description |
 |----------|--------------|-------------|
@@ -89,4 +87,6 @@ The `train.py` script supports the following command-line arguments:
 | `-nhl`, `--num_layers` | `4` | Number of hidden layers |
 | `-sz`, `--hidden_size` | `128` | Number of neurons per hidden layer |
 | `-a`, `--activation` | `relu` | Activation function: `identity`, `sigmoid`, `tanh`, `relu` |
+## Self Declaration
+I, Anvit Kumar, swear on my honour that I have written the code and the report by myself and have not copied it from the internet or other students.
 
