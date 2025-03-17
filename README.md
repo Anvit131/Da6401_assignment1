@@ -83,13 +83,10 @@ The `train.py` script supports the following command-line arguments:
 | `-beta`, `--beta` | `0.9` | Beta for `RMSProp` optimizer |
 | `-beta1`, `--beta1` | `0.9` | Beta1 for `Adam` and `Nadam` optimizers |
 | `-beta2`, `--beta2` | `0.999` | Beta2 for `Adam` and `Nadam` optimizers |
-| `-eps`, `--epsilon` | `1e-6` | Epsilon for numerical stability in optimizers |
+| `-eps`, `--epsilon` | `1e-8` | Epsilon for numerical stability in optimizers |
 | `-w_d`, `--weight_decay` | `0.0` | Weight decay (L2 regularization) coefficient |
 | `-w_i`, `--weight_init` | `xavier` | Weight initialization: `random` or `xavier` |
 | `-nhl`, `--num_layers` | `4` | Number of hidden layers |
 | `-sz`, `--hidden_size` | `128` | Number of neurons per hidden layer |
 | `-a`, `--activation` | `relu` | Activation function: `identity`, `sigmoid`, `tanh`, `relu` |
 
-### **Example Usage**
-```bash
-python train.py --wandb_project myprojectname --wandb_entity myname --epochs 10 --batch_size 16 --learning_rate 0.0001 --optimizer adam --activation relu
