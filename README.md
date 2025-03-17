@@ -29,13 +29,34 @@ This project implements a **fully connected neural network** from scratch using 
 
 ## ** Installation**  
 
-Ensure Python is installed and install the required dependencies:  
+1. Ensure Python is installed and install the required dependencies:  
 
 ```bash
 pip install numpy matplotlib seaborn scikit-learn wandb keras
+```
+2. Ensure requirements includes:
+```bash
+numpy
+matplotlib
+seaborn
+scikit-learn
+tensorflow
+wandb
+```
+3. Set up Wandb:
+Sign up for a free account at wandb.ai.
+Log in from the command line:
+```bash
+wandb login
 ```
 ## ** Train the Model **
 To train the neural network on Fashion-MNIST, run:
 python DL_1.ipynb
 
+## Evaluate the Model
+After training, the model evaluates on the test dataset by:
+
+ -Computing test accuracy
+ -Generating a confusion matrix
+ -Logging results in wandb
 
