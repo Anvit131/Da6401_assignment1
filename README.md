@@ -55,8 +55,10 @@ python DL_1.ipynb
 
 ## Evaluate the Model
 - After training, the model evaluates on the test dataset by:
-
    - Computing test accuracy
    - Generating a confusion matrix
    - Logging results in wandb
-
+- Viewing Results
+  - Check Accuracy & Loss: Logged to wandb
+  - View Confusion Matrix: Plotted using Seaborn
+  - Compare Hyperparameter Runs: On the wandb dashboard
