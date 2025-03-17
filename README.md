@@ -54,9 +54,9 @@ To train the neural network on Fashion-MNIST, run:
 python DL_1.ipynb
 
 ## Evaluate the Model
-After training, the model evaluates on the test dataset by:
+-After training, the model evaluates on the test dataset by:
 
- -Computing test accuracy
- -Generating a confusion matrix
- -Logging results in wandb
+   -Computing test accuracy
+   -Generating a confusion matrix
+   -Logging results in wandb
 
