@@ -31,7 +31,7 @@ This project implements a **fully connected neural network** from scratch using 
 
 Ensure Python is installed and install the required dependencies:  
 
-
+'''bash
 pip install numpy matplotlib seaborn scikit-learn wandb keras
 
 bash'''
