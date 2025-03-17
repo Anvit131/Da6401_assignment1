@@ -65,7 +65,7 @@ python DL_1.ipynb
   - View Confusion Matrix: Plotted using Seaborn
   - Compare Hyperparameter Runs: On the wandb dashboard
  
-## Supported Command-Line Arguments  
+## Supported Argument
 
 The `train.py` script supports the following command-line arguments:  
 
