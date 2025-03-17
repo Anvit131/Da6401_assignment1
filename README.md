@@ -90,3 +90,5 @@ python DL_1.ipynb
 ## Self Declaration
 I, Anvit Kumar, swear on my honour that I have written the code and the report by myself and have not copied it from the internet or other students.
 
+Wandb Link  : https://api.wandb.ai/links/ma24m004-iit-madras/g89ewehu
+GitHub link : https://github.com/Anvit131/Da6401_assignment1
