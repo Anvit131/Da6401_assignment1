@@ -31,10 +31,9 @@ This project implements a **fully connected neural network** from scratch using 
 
 Ensure Python is installed and install the required dependencies:  
 
-'''bash
+```bash
 pip install numpy matplotlib seaborn scikit-learn wandb keras
-
-bash'''
+exit
 Train the Model
 To train the neural network on Fashion-MNIST, run:
 python DL_1.ipynb
