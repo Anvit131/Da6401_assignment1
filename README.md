@@ -50,9 +50,11 @@ Log in from the command line:
 wandb login
 ```
 ## ** Train the Model **
-To train the neural network on Fashion-MNIST, run:
+To train the neural network on Fashion-MNIST,
+run:
+```bash
 python DL_1.ipynb
-
+```
 ## Evaluate the Model
 - After training, the model evaluates on the test dataset by:
    - Computing test accuracy
